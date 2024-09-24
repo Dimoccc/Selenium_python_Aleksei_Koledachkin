@@ -1,0 +1,10 @@
+
+Ссылки
+https://www.selenium.dev/selenium/docs/api/py/webdriver_support/selenium.webdriver.support.expected_conditions.html
+шпора
+https://www.dropbox.com/scl/fi/rzwkcsf8tn1gyi2k7p6zx/Expected-Conditions-Selenium.pdf?rlkey=abixnt6hn50tff44o5sdf3j7a&e=1&dl=0
+
+element_to_be_clickable(locator) - Ожидает видимости элемента и его кликабельности (возможности кликнуть).
+visibility_of_element_located(locator) - Ожидание проверки того, что элемент присутствует в DOM и виден визуально. Видимость означает, что элемент не только отображается но также имеет высоту и ширину, которые больше 0.
+invisibility_of_element_located(locator) - Ожидание проверки того, является ли элемент невидимым или он исчез из DOM.
+text_to_be_present_in_element(locator, text) - Ожидание наличия нужного текста в элементе.
